@@ -1,0 +1,224 @@
+.item-reviews
+{
+    background-color: rgb(225, 240, 255);
+}
+
+.part
+{
+    background-color: white;
+}
+
+.part1
+{
+    display: flex;
+}
+
+.part1 h5
+{
+    color: rgb(0, 0, 170);
+}
+
+.line
+{
+    background-color: rgb(215, 215, 215);
+    height: 1px;
+    width: 92%;
+    margin-left:1.2rem;
+}
+
+.part2
+{
+    display: flex;
+}
+
+.part3
+{
+    width:23%;
+    color: white;
+}
+
+.lpart3
+{
+    background-color: rgb(2, 20, 180);
+    color: white;
+}
+
+.btn
+{
+    color: white;
+    width: 100%;
+}
+
+.part4
+{
+    width: 69%;
+    overflow: hidden;
+}
+
+.case1
+{
+    margin-left: 0.5rem;
+}
+
+.progress
+{
+    width: 85%;
+    float: left;
+    margin-right: 1rem;
+    height: 2vh;
+}
+
+.review1
+{
+    width: 100%;
+}
+
+.box
+{
+    background-color: rgb(244, 244, 244);
+    width: 92%;   
+}
+
+.box img
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+.box p
+{
+    font-size: small;
+    color: gray;
+}
+
+.sign
+{   
+    display:flex;
+    justify-content: flex-end;
+}
+
+.mark
+{
+    background-color: rgb(15, 15, 160);
+    color: white; 
+}
+
+.last i
+{
+    color: #3AACED;
+    margin-right: 1rem;
+}
+
+.last1 h6
+{
+    font-size: small;
+    color:#999 ;
+}
+
+.last1
+{
+    display:inline-flex;
+}
+
+.last2
+{
+    display:inline-flex;
+    justify-content: flex-end;
+    margin-left: 22rem;
+}
+
+.last2 a
+{
+    font-weight: bold;
+    font-size: small;
+    color: black;
+}
+
+.add-riview
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+.all
+{
+    width: 70%;
+    float: left;
+}
+
+.riview
+{
+    width:20%;
+    float: left;
+}
+
+.riview h6
+{
+    font-size: small;
+    color: #999;
+    margin-bottom: 1.5rem;
+}
+
+.percentage
+{
+    width: 70%;
+    float: right;
+}
+
+.score
+{
+    width: 25%;
+    float: right;
+    background-color:#edf2f6 ;
+    border:1px solid rgb(215, 218, 246);
+}
+
+.score h4
+{
+    color: rgb(116, 116, 240);
+}
+
+.your-review input
+{
+    background-color: #F7F9FB;
+    border: 1px solid #eee;
+}
+
+.your-review textarea
+{
+    background-color: #F7F9FB;
+    border: 1px solid #eee;
+}
+
+.your-review button
+{
+    background-color: #F9B90F;
+    border: 1px solid #F9B90F ;
+}
+
+@media (min-width:892px) and (max-width: 1079px)
+{
+    .last2
+   {
+    margin-left: 16rem;
+   }
+}
+@media (min-width:691px) and (max-width: 891px)
+{
+    .last2
+   {
+    margin-left: 16rem;
+   }
+   .progress
+{
+    width: 75%;
+}
+}
+
+@media (min-width:500px) and (max-width: 692px)
+{
+    .last2
+   {
+    margin-left: 14rem;
+   }
+}
